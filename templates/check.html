@@ -1,0 +1,47 @@
+{%extends "base_template.html"%}
+{%block content%}
+<!-- <div class="container text-center"> -->
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>idx</th>
+        <th>index</th>
+        <th>artist_name</th>
+        <th>track_name</th>
+        <th>track_id</th>
+        <th>popularity</th>
+        <th>year</th>
+        <th>genre</th>
+        <th>danceability</th>
+        <th>energy</th>
+        <th>key</th>
+        <th>loudness</th>
+        <th>mode</th>
+        <th>speechiness</th>
+        <th>acousticness</th>
+        <th>instrumentalness</th>
+        <th>liveness</th>
+        <th>valence</th>
+        <th>tempo</th>
+        <th>duration_ms</th>
+        <th>time_signature</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in rows %}
+      <tr>
+        {% for key, value in row.items() %}
+          <td>{{ value }}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+    <form action="/check" method="POST">
+      <label for="song_name" type="text">Search Song</label>
+      {{form.song_name.label}} {{form.song_name}} 
+      {{form.submit}}
+    </form>
+
+{%endblock%}

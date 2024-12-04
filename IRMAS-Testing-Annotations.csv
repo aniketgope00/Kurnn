@@ -1,0 +1,767 @@
+,file_name,instrument
+0,02 bwv 1068 air on g string-1.wav,"['cel', 'vio']"
+1,02 bwv 1068 air on g string-10.wav,"['cel', 'vio']"
+2,02 bwv 1068 air on g string-11.wav,"['cel', 'vio']"
+3,02 bwv 1068 air on g string-12.wav,"['cel', 'vio']"
+4,02 bwv 1068 air on g string-13.wav,"['cel', 'vio']"
+5,02 bwv 1068 air on g string-14.wav,"['cel', 'vio']"
+6,02 bwv 1068 air on g string-15.wav,"['cel', 'vio']"
+7,02 bwv 1068 air on g string-2.wav,"['cel', 'vio']"
+8,02 bwv 1068 air on g string-3.wav,"['cel', 'vio']"
+9,02 bwv 1068 air on g string-4.wav,"['cel', 'vio']"
+10,02 bwv 1068 air on g string-5.wav,"['cel', 'vio']"
+11,02 bwv 1068 air on g string-6.wav,"['cel', 'vio']"
+12,02 bwv 1068 air on g string-7.wav,"['cel', 'vio']"
+13,02 bwv 1068 air on g string-8.wav,"['cel', 'vio']"
+14,02 bwv 1068 air on g string-9.wav,"['cel', 'vio']"
+15,02 entangled-1.wav,"['gac', 'gel']"
+16,02 entangled-10.wav,"['gac', 'gel']"
+17,02 entangled-11.wav,"['gac', 'gel', 'voi']"
+18,02 entangled-13.wav,"['gac', 'gel']"
+19,02 entangled-14.wav,"['gac', 'voi']"
+20,02 entangled-15.wav,"['gac', 'voi']"
+21,02 entangled-17.wav,"['gac', 'gel']"
+22,02 entangled-18.wav,"['gac', 'gel']"
+23,02 entangled-19.wav,"['gac', 'gel']"
+24,02 entangled-2.wav,"['gac', 'gel', 'voi']"
+25,02 entangled-20.wav,"['gac', 'gel']"
+26,02 entangled-21.wav,"['gac', 'gel']"
+27,02 entangled-23.wav,"['gac', 'gel']"
+28,02 entangled-3.wav,"['gac', 'gel', 'voi']"
+29,02 entangled-4.wav,"['gac', 'gel', 'voi']"
+30,02 entangled-6.wav,"['gac', 'gel']"
+31,02 entangled-7.wav,"['gac', 'voi']"
+32,02 entangled-8.wav,"['gac', 'voi']"
+33,02 Stardust-1.wav,['tru']
+34,02 Stardust-10.wav,"['pia', 'tru']"
+35,02 Stardust-11.wav,"['pia', 'tru']"
+36,02 Stardust-2.wav,['tru']
+37,02 Stardust-3.wav,['tru']
+38,02 Stardust-4.wav,['tru']
+39,02 Stardust-5.wav,['tru']
+40,02 Stardust-6.wav,['tru']
+41,02 Stardust-8.wav,"['pia', 'tru']"
+42,02 Walkin-2.wav,['sax']
+43,02 Walkin-8.wav,['pia']
+44,02-the_mars_volta-the_widow-jrp-1.wav,"['gac', 'gel', 'voi']"
+45,02-the_mars_volta-the_widow-jrp-11.wav,"['gel', 'voi']"
+46,02-the_mars_volta-the_widow-jrp-12.wav,"['gel', 'org', 'voi']"
+47,02-the_mars_volta-the_widow-jrp-13.wav,"['gel', 'org', 'voi']"
+48,02-the_mars_volta-the_widow-jrp-14.wav,"['gel', 'org', 'voi']"
+49,02-the_mars_volta-the_widow-jrp-15.wav,"['gel', 'org', 'voi']"
+50,02-the_mars_volta-the_widow-jrp-16.wav,"['org', 'voi']"
+51,02-the_mars_volta-the_widow-jrp-17.wav,['org']
+52,02-the_mars_volta-the_widow-jrp-18.wav,['org']
+53,02-the_mars_volta-the_widow-jrp-19.wav,['org']
+54,02-the_mars_volta-the_widow-jrp-20.wav,['org']
+55,02-the_mars_volta-the_widow-jrp-21.wav,['org']
+56,02-the_mars_volta-the_widow-jrp-22.wav,['org']
+57,02-the_mars_volta-the_widow-jrp-3.wav,"['gel', 'voi']"
+58,02-the_mars_volta-the_widow-jrp-4.wav,"['gel', 'voi']"
+59,02-the_mars_volta-the_widow-jrp-5.wav,"['gac', 'voi']"
+60,02-the_mars_volta-the_widow-jrp-7.wav,"['gel', 'voi']"
+61,02-the_mars_volta-the_widow-jrp-8.wav,"['gel', 'voi']"
+62,02-the_mars_volta-the_widow-jrp-9.wav,"['gel', 'tru', 'voi']"
+63,02-the_theory_of_everything_part_2-1.wav,['voi']
+64,02-the_theory_of_everything_part_2-10.wav,['voi']
+65,02-the_theory_of_everything_part_2-11.wav,"['pia', 'voi']"
+66,02-the_theory_of_everything_part_2-13.wav,['pia']
+67,02-the_theory_of_everything_part_2-2.wav,['pia']
+68,02-the_theory_of_everything_part_2-3.wav,"['pia', 'voi']"
+69,02-the_theory_of_everything_part_2-5.wav,"['pia', 'voi']"
+70,02-the_theory_of_everything_part_2-6.wav,"['pia', 'voi']"
+71,02-the_theory_of_everything_part_2-7.wav,"['pia', 'voi']"
+72,02-the_theory_of_everything_part_2-8.wav,"['pia', 'voi']"
+73,02. School Boy-1.wav,['pia']
+74,02. School Boy-10.wav,"['pia', 'tru']"
+75,02. School Boy-12.wav,['pia']
+76,02. School Boy-14.wav,"['pia', 'sax']"
+77,02. School Boy-15.wav,"['pia', 'sax']"
+78,02. School Boy-17.wav,['pia']
+79,02. School Boy-18.wav,['pia']
+80,02. School Boy-19.wav,['pia']
+81,02. School Boy-2.wav,"['pia', 'tru']"
+82,02. School Boy-21.wav,"['pia', 'sax', 'tru']"
+83,02. School Boy-22.wav,"['pia', 'sax', 'tru']"
+84,02. School Boy-23.wav,"['pia', 'sax', 'tru']"
+85,02. School Boy-24.wav,"['pia', 'sax', 'tru']"
+86,02. School Boy-3.wav,"['pia', 'sax', 'tru']"
+87,02. School Boy-4.wav,"['pia', 'sax', 'tru']"
+88,02. School Boy-6.wav,"['pia', 'tru']"
+89,02. School Boy-7.wav,"['pia', 'tru']"
+90,02. School Boy-8.wav,"['pia', 'tru']"
+91,02. School Boy-9.wav,"['pia', 'tru']"
+92,02. Yesterdays-1.wav,['pia']
+93,02. Yesterdays-10.wav,"['cla', 'pia']"
+94,02. Yesterdays-12.wav,['pia']
+95,02. Yesterdays-14.wav,['pia']
+96,02. Yesterdays-15.wav,['pia']
+97,02. Yesterdays-2.wav,['pia']
+98,02. Yesterdays-3.wav,['pia']
+99,02. Yesterdays-4.wav,['pia']
+100,02. Yesterdays-6.wav,['cla']
+101,02. Yesterdays-7.wav,['cla']
+102,02. Yesterdays-9.wav,"['cla', 'pia']"
+103,"03 -  robert fripp, brian eno - evening star-1.wav","['gac', 'gel']"
+104,"03 -  robert fripp, brian eno - evening star-10.wav","['gac', 'gel']"
+105,"03 -  robert fripp, brian eno - evening star-11.wav","['gac', 'gel']"
+106,"03 -  robert fripp, brian eno - evening star-12.wav","['gac', 'gel']"
+107,"03 -  robert fripp, brian eno - evening star-14.wav","['gac', 'gel', 'pia']"
+108,"03 -  robert fripp, brian eno - evening star-15.wav","['gac', 'gel', 'pia']"
+109,"03 -  robert fripp, brian eno - evening star-16.wav","['gac', 'gel', 'pia']"
+110,"03 -  robert fripp, brian eno - evening star-18.wav","['gac', 'gel', 'pia']"
+111,"03 -  robert fripp, brian eno - evening star-20.wav","['gac', 'gel']"
+112,"03 -  robert fripp, brian eno - evening star-21.wav","['gac', 'gel']"
+113,"03 -  robert fripp, brian eno - evening star-22.wav","['gac', 'gel']"
+114,"03 -  robert fripp, brian eno - evening star-23.wav","['gac', 'gel']"
+115,"03 -  robert fripp, brian eno - evening star-24.wav","['gac', 'gel']"
+116,"03 -  robert fripp, brian eno - evening star-25.wav","['gac', 'gel']"
+117,"03 -  robert fripp, brian eno - evening star-3.wav","['gac', 'gel']"
+118,"03 -  robert fripp, brian eno - evening star-4.wav","['gac', 'gel']"
+119,"03 -  robert fripp, brian eno - evening star-5.wav","['gac', 'gel']"
+120,"03 -  robert fripp, brian eno - evening star-6.wav","['gac', 'gel']"
+121,"03 -  robert fripp, brian eno - evening star-8.wav","['gac', 'gel']"
+122,"03 -  robert fripp, brian eno - evening star-9.wav","['gac', 'gel']"
+123,03 - kraftwerk - nummern-1.wav,['voi']
+124,03 - kraftwerk - nummern-11.wav,['voi']
+125,03 - kraftwerk - nummern-2.wav,['voi']
+126,03 - kraftwerk - nummern-6.wav,['voi']
+127,03 - kraftwerk - nummern-7.wav,['voi']
+128,03 - Symptom of the Universe-1.wav,['gel']
+129,03 - Symptom of the Universe-11.wav,"['gel', 'voi']"
+130,03 - Symptom of the Universe-13.wav,['gel']
+131,03 - Symptom of the Universe-15.wav,['gel']
+132,03 - Symptom of the Universe-17.wav,['gel']
+133,03 - Symptom of the Universe-18.wav,['gac']
+134,03 - Symptom of the Universe-19.wav,['gac']
+135,03 - Symptom of the Universe-2.wav,['gel']
+136,03 - Symptom of the Universe-20.wav,"['gac', 'voi']"
+137,03 - Symptom of the Universe-21.wav,"['gac', 'voi']"
+138,03 - Symptom of the Universe-23.wav,['gac']
+139,03 - Symptom of the Universe-24.wav,['gac']
+140,03 - Symptom of the Universe-25.wav,['gac']
+141,03 - Symptom of the Universe-4.wav,"['gel', 'voi']"
+142,03 - Symptom of the Universe-5.wav,"['gel', 'voi']"
+143,03 - Symptom of the Universe-6.wav,"['gel', 'voi']"
+144,03 - Symptom of the Universe-8.wav,['gel']
+145,03 - Symptom of the Universe-9.wav,['gel']
+146,03 LEE MORGAN - THE SIDEWINDER-1.wav,['pia']
+147,03 LEE MORGAN - THE SIDEWINDER-10.wav,['pia']
+148,03 LEE MORGAN - THE SIDEWINDER-11.wav,['pia']
+149,03 LEE MORGAN - THE SIDEWINDER-13.wav,"['pia', 'sax']"
+150,03 LEE MORGAN - THE SIDEWINDER-14.wav,"['pia', 'sax']"
+151,03 LEE MORGAN - THE SIDEWINDER-15.wav,"['pia', 'sax']"
+152,03 LEE MORGAN - THE SIDEWINDER-16.wav,"['pia', 'sax']"
+153,03 LEE MORGAN - THE SIDEWINDER-17.wav,"['pia', 'sax']"
+154,03 LEE MORGAN - THE SIDEWINDER-3.wav,['pia']
+155,03 LEE MORGAN - THE SIDEWINDER-4.wav,['pia']
+156,03 LEE MORGAN - THE SIDEWINDER-5.wav,['pia']
+157,03 LEE MORGAN - THE SIDEWINDER-7.wav,['pia']
+158,03 LEE MORGAN - THE SIDEWINDER-8.wav,['pia']
+159,03 LEE MORGAN - THE SIDEWINDER-9.wav,['pia']
+160,03-I'll Be OK-1.wav,"['gel', 'voi']"
+161,03-I'll Be OK-10.wav,['gel']
+162,03-I'll Be OK-11.wav,"['gel', 'voi']"
+163,03-I'll Be OK-12.wav,"['gel', 'pia', 'voi']"
+164,03-I'll Be OK-14.wav,"['gel', 'pia', 'voi']"
+165,03-I'll Be OK-16.wav,"['gel', 'pia']"
+166,03-I'll Be OK-2.wav,"['gel', 'voi']"
+167,03-I'll Be OK-4.wav,"['gel', 'pia']"
+168,03-I'll Be OK-5.wav,"['gel', 'pia', 'voi']"
+169,03-I'll Be OK-6.wav,"['gel', 'pia', 'voi']"
+170,03-I'll Be OK-7.wav,"['gel', 'pia', 'voi']"
+171,03-I'll Be OK-9.wav,"['gel', 'pia']"
+172,03-the_beatles-lucy_in_the_sky_with_diamonds-10.wav,['voi']
+173,03-the_beatles-lucy_in_the_sky_with_diamonds-12.wav,"['gel', 'voi']"
+174,03-the_beatles-lucy_in_the_sky_with_diamonds-13.wav,"['gel', 'voi']"
+175,03-the_beatles-lucy_in_the_sky_with_diamonds-2.wav,['voi']
+176,03-the_beatles-lucy_in_the_sky_with_diamonds-3.wav,['voi']
+177,03-the_beatles-lucy_in_the_sky_with_diamonds-4.wav,"['gel', 'voi']"
+178,03-the_beatles-lucy_in_the_sky_with_diamonds-6.wav,['voi']
+179,03-the_beatles-lucy_in_the_sky_with_diamonds-8.wav,"['gel', 'voi']"
+180,03_fly like an eagle - steve miller-1.wav,['gel']
+181,03_fly like an eagle - steve miller-10.wav,"['gel', 'org']"
+182,03_fly like an eagle - steve miller-11.wav,"['gel', 'org', 'voi']"
+183,03_fly like an eagle - steve miller-2.wav,"['gel', 'org', 'voi']"
+184,03_fly like an eagle - steve miller-3.wav,"['gel', 'org', 'voi']"
+185,03_fly like an eagle - steve miller-4.wav,"['gel', 'org', 'voi']"
+186,03_fly like an eagle - steve miller-5.wav,"['gel', 'org', 'voi']"
+187,03_fly like an eagle - steve miller-6.wav,"['gel', 'org', 'voi']"
+188,03_fly like an eagle - steve miller-7.wav,"['gel', 'org', 'voi']"
+189,03_fly like an eagle - steve miller-8.wav,"['gel', 'org', 'voi']"
+190,04 - kokoku-11.wav,"['org', 'voi']"
+191,04 - kokoku-13.wav,"['org', 'voi']"
+192,04 - kokoku-15.wav,"['org', 'voi']"
+193,04 - kokoku-17.wav,"['org', 'voi']"
+194,04 - kokoku-18.wav,"['org', 'voi']"
+195,04 - kokoku-19.wav,"['org', 'voi']"
+196,04 - kokoku-20.wav,"['org', 'voi']"
+197,04 - kokoku-22.wav,"['org', 'voi']"
+198,04 - kokoku-23.wav,"['org', 'voi']"
+199,04 - kokoku-25.wav,"['org', 'voi']"
+200,04 - kokoku-3.wav,"['org', 'voi']"
+201,04 - kokoku-4.wav,"['org', 'voi']"
+202,04 - kokoku-5.wav,"['org', 'voi']"
+203,04 - kokoku-6.wav,"['org', 'voi']"
+204,04 - kokoku-7.wav,"['org', 'voi']"
+205,04 - kokoku-9.wav,['org']
+206,04 I Can't Say-1.wav,"['gac', 'pia']"
+207,04 I Can't Say-2.wav,"['gac', 'pia']"
+208,04 I Can't Say-3.wav,"['gac', 'pia']"
+209,04 I Can't Say-5.wav,"['gac', 'pia']"
+210,04 I Can't Say-7.wav,"['gac', 'pia', 'tru']"
+211,04 I Can't Say-9.wav,"['gac', 'pia']"
+212,04 Red Bats With Teeth-11.wav,['sax']
+213,04 Red Bats With Teeth-2.wav,['pia']
+214,04 Red Bats With Teeth-3.wav,"['pia', 'sax']"
+215,04 Red Bats With Teeth-4.wav,"['pia', 'sax']"
+216,04 Red Bats With Teeth-5.wav,"['pia', 'sax']"
+217,04 Red Bats With Teeth-6.wav,"['pia', 'sax']"
+218,04 Red Bats With Teeth-7.wav,"['pia', 'sax']"
+219,04 Red Bats With Teeth-8.wav,"['pia', 'sax']"
+220,04 Red Bats With Teeth-9.wav,"['pia', 'sax']"
+221,04 The Czar-1.wav,['org']
+222,04 The Czar-10.wav,"['gel', 'voi']"
+223,04 The Czar-11.wav,"['gel', 'voi']"
+224,04 The Czar-12.wav,"['gel', 'voi']"
+225,04 The Czar-14.wav,['gel']
+226,04 The Czar-16.wav,"['gel', 'voi']"
+227,04 The Czar-18.wav,"['gel', 'voi']"
+228,04 The Czar-19.wav,['gel']
+229,04 The Czar-21.wav,"['gel', 'voi']"
+230,04 The Czar-23.wav,"['gel', 'voi']"
+231,04 The Czar-24.wav,['gel']
+232,04 The Czar-25.wav,['gel']
+233,04 The Czar-26.wav,"['gel', 'voi']"
+234,04 The Czar-27.wav,['gel']
+235,04 The Czar-28.wav,['gel']
+236,04 The Czar-29.wav,"['gel', 'voi']"
+237,04 The Czar-3.wav,"['gel', 'org']"
+238,04 The Czar-31.wav,['gel']
+239,04 The Czar-32.wav,['gel']
+240,04 The Czar-34.wav,"['gel', 'voi']"
+241,04 The Czar-36.wav,['gel']
+242,04 The Czar-37.wav,"['gel', 'voi']"
+243,04 The Czar-39.wav,['gel']
+244,04 The Czar-4.wav,['gel']
+245,04 The Czar-40.wav,['gel']
+246,04 The Czar-5.wav,['gel']
+247,04 The Czar-7.wav,"['gel', 'voi']"
+248,04 The Czar-70.wav,['pia']
+249,04 The Czar-9.wav,['gel']
+250,04 Zeca Baleiro - Com Jards Macale-1.wav,"['flu', 'gac']"
+251,04 Zeca Baleiro - Com Jards Macale-2.wav,"['flu', 'gac', 'voi']"
+252,04 Zeca Baleiro - Com Jards Macale-4.wav,"['gac', 'voi']"
+253,04 Zeca Baleiro - Com Jards Macale-5.wav,"['flu', 'gac', 'voi']"
+254,04 Zeca Baleiro - Com Jards Macale-6.wav,"['flu', 'gac', 'voi']"
+255,04 Zeca Baleiro - Com Jards Macale-8.wav,"['gac', 'voi']"
+256,04 Zeca Baleiro - Com Jards Macale-9.wav,"['flu', 'gac', 'voi']"
+257,04. MIKE OLDFIELD - Argiers-1.wav,['gac']
+258,04. MIKE OLDFIELD - Argiers-10.wav,"['flu', 'gac']"
+259,04. MIKE OLDFIELD - Argiers-11.wav,"['flu', 'gac']"
+260,04. MIKE OLDFIELD - Argiers-12.wav,"['flu', 'gac']"
+261,04. MIKE OLDFIELD - Argiers-13.wav,"['flu', 'gac']"
+262,04. MIKE OLDFIELD - Argiers-2.wav,['gac']
+263,04. MIKE OLDFIELD - Argiers-3.wav,"['flu', 'gac']"
+264,04. MIKE OLDFIELD - Argiers-4.wav,"['flu', 'gac']"
+265,04. MIKE OLDFIELD - Argiers-5.wav,"['flu', 'gac']"
+266,04. MIKE OLDFIELD - Argiers-6.wav,"['flu', 'gac']"
+267,04. MIKE OLDFIELD - Argiers-7.wav,"['flu', 'gac']"
+268,04. MIKE OLDFIELD - Argiers-8.wav,"['flu', 'gac']"
+269,04. MIKE OLDFIELD - Argiers-9.wav,"['flu', 'gac']"
+270,04.Mira - ANDREW HILL-1.wav,['pia']
+271,04.Mira - ANDREW HILL-10.wav,"['pia', 'tru']"
+272,04.Mira - ANDREW HILL-11.wav,"['pia', 'tru']"
+273,04.Mira - ANDREW HILL-12.wav,"['pia', 'tru']"
+274,04.Mira - ANDREW HILL-13.wav,"['pia', 'tru']"
+275,04.Mira - ANDREW HILL-14.wav,"['pia', 'tru']"
+276,04.Mira - ANDREW HILL-16.wav,"['pia', 'sax']"
+277,04.Mira - ANDREW HILL-17.wav,"['pia', 'sax']"
+278,04.Mira - ANDREW HILL-18.wav,"['pia', 'sax']"
+279,04.Mira - ANDREW HILL-2.wav,"['pia', 'sax', 'tru']"
+280,04.Mira - ANDREW HILL-20.wav,['pia']
+281,04.Mira - ANDREW HILL-21.wav,"['pia', 'sax', 'tru']"
+282,04.Mira - ANDREW HILL-4.wav,['pia']
+283,04.Mira - ANDREW HILL-5.wav,['pia']
+284,04.Mira - ANDREW HILL-6.wav,['pia']
+285,04.Mira - ANDREW HILL-7.wav,['pia']
+286,04.Mira - ANDREW HILL-9.wav,"['pia', 'tru']"
+287,05 - Bobbi Humphrey - You Are The Sunshine of My Life-1.wav,['pia']
+288,05 - Bobbi Humphrey - You Are The Sunshine of My Life-10.wav,"['flu', 'pia']"
+289,05 - Bobbi Humphrey - You Are The Sunshine of My Life-11.wav,['pia']
+290,05 - Bobbi Humphrey - You Are The Sunshine of My Life-2.wav,"['flu', 'pia']"
+291,05 - Bobbi Humphrey - You Are The Sunshine of My Life-3.wav,"['flu', 'pia']"
+292,05 - Bobbi Humphrey - You Are The Sunshine of My Life-5.wav,"['flu', 'org', 'pia']"
+293,05 - Bobbi Humphrey - You Are The Sunshine of My Life-7.wav,"['flu', 'gel', 'pia']"
+294,05 - Bobbi Humphrey - You Are The Sunshine of My Life-8.wav,"['flu', 'gel', 'pia']"
+295,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-1.wav",['vio']
+296,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-10.wav",['vio']
+297,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-11.wav",['vio']
+298,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-12.wav",['vio']
+299,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-13.wav",['vio']
+300,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-14.wav",['vio']
+301,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-15.wav",['vio']
+302,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-16.wav",['vio']
+303,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-17.wav",['vio']
+304,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-18.wav",['vio']
+305,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-19.wav",['vio']
+306,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-2.wav",['vio']
+307,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-20.wav",['vio']
+308,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-21.wav",['vio']
+309,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-22.wav",['vio']
+310,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-23.wav",['vio']
+311,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-24.wav",['vio']
+312,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-25.wav",['vio']
+313,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-26.wav",['vio']
+314,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-27.wav",['vio']
+315,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-28.wav",['vio']
+316,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-3.wav",['vio']
+317,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-4.wav",['vio']
+318,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-5.wav",['vio']
+319,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-6.wav",['vio']
+320,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-7.wav",['vio']
+321,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-8.wav",['vio']
+322,"05 - Gidon Kremer - Violin Concerto No. 5 In A Major, K. 219- Adagio - Gidon Kremer-9.wav",['vio']
+323,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-1.wav",['pia']
+324,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-10.wav",['pia']
+325,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-11.wav",['pia']
+326,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-12.wav",['pia']
+327,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-13.wav",['pia']
+328,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-14.wav",['pia']
+329,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-15.wav",['pia']
+330,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-16.wav",['pia']
+331,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-17.wav",['pia']
+332,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-18.wav",['pia']
+333,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-19.wav",['pia']
+334,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-2.wav",['pia']
+335,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-20.wav",['pia']
+336,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-21.wav",['pia']
+337,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-22.wav",['pia']
+338,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-23.wav",['pia']
+339,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-24.wav",['pia']
+340,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-25.wav",['pia']
+341,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-26.wav",['pia']
+342,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-27.wav",['pia']
+343,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-28.wav",['pia']
+344,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-29.wav",['pia']
+345,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-3.wav",['pia']
+346,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-30.wav",['pia']
+347,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-31.wav",['pia']
+348,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-32.wav",['pia']
+349,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-33.wav",['pia']
+350,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-34.wav",['pia']
+351,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-35.wav",['pia']
+352,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-36.wav",['pia']
+353,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-37.wav",['pia']
+354,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-38.wav",['pia']
+355,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-39.wav",['pia']
+356,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-4.wav",['pia']
+357,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-40.wav",['pia']
+358,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-5.wav",['pia']
+359,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-6.wav",['pia']
+360,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-7.wav",['pia']
+361,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-8.wav",['pia']
+362,"05 - Sonata in A minor, Op. post. 143 D.784 - I. Allegro giusto-9.wav",['pia']
+363,05 achron - hebrew melody-1.wav,['pia']
+364,05 achron - hebrew melody-10.wav,['pia']
+365,05 achron - hebrew melody-11.wav,['pia']
+366,05 achron - hebrew melody-12.wav,['pia']
+367,05 achron - hebrew melody-14.wav,['pia']
+368,05 achron - hebrew melody-15.wav,['pia']
+369,05 achron - hebrew melody-16.wav,['pia']
+370,05 achron - hebrew melody-17.wav,['pia']
+371,05 achron - hebrew melody-2.wav,['pia']
+372,05 achron - hebrew melody-21.wav,['pia']
+373,05 achron - hebrew melody-3.wav,['pia']
+374,05 achron - hebrew melody-4.wav,['pia']
+375,05 achron - hebrew melody-5.wav,['pia']
+376,05 achron - hebrew melody-6.wav,['pia']
+377,05 achron - hebrew melody-7.wav,['pia']
+378,05 achron - hebrew melody-8.wav,['pia']
+379,05 Mendelssohn - Piano Concerto No. 2 - II. Adagio (molto sostenuto)-10.wav,['pia']
+380,05 Mendelssohn - Piano Concerto No. 2 - II. Adagio (molto sostenuto)-11.wav,['pia']
+381,05 Mendelssohn - Piano Concerto No. 2 - II. Adagio (molto sostenuto)-12.wav,['pia']
+382,05 Mendelssohn - Piano Concerto No. 2 - II. Adagio (molto sostenuto)-14.wav,['pia']
+383,05 Mendelssohn - Piano Concerto No. 2 - II. Adagio (molto sostenuto)-15.wav,['pia']
+384,05 Mendelssohn - Piano Concerto No. 2 - II. Adagio (molto sostenuto)-17.wav,['pia']
+385,05 Mendelssohn - Piano Concerto No. 2 - II. Adagio (molto sostenuto)-18.wav,['pia']
+386,05 Mendelssohn - Piano Concerto No. 2 - II. Adagio (molto sostenuto)-19.wav,['pia']
+387,05 Mendelssohn - Piano Concerto No. 2 - II. Adagio (molto sostenuto)-20.wav,['pia']
+388,05 Mendelssohn - Piano Concerto No. 2 - II. Adagio (molto sostenuto)-23.wav,['flu']
+389,05 Mendelssohn - Piano Concerto No. 2 - II. Adagio (molto sostenuto)-5.wav,['pia']
+390,05 Mendelssohn - Piano Concerto No. 2 - II. Adagio (molto sostenuto)-6.wav,['pia']
+391,05 Mendelssohn - Piano Concerto No. 2 - II. Adagio (molto sostenuto)-7.wav,['pia']
+392,05 Mendelssohn - Piano Concerto No. 2 - II. Adagio (molto sostenuto)-8.wav,['pia']
+393,05-antonio_orozco-hoy_todo_va_al_reves_(con_toteking)-nyd-10.wav,"['gel', 'org', 'voi']"
+394,05-antonio_orozco-hoy_todo_va_al_reves_(con_toteking)-nyd-11.wav,"['gel', 'org', 'voi']"
+395,05-antonio_orozco-hoy_todo_va_al_reves_(con_toteking)-nyd-12.wav,"['gel', 'org', 'voi']"
+396,05-antonio_orozco-hoy_todo_va_al_reves_(con_toteking)-nyd-13.wav,"['gel', 'org', 'voi']"
+397,05-antonio_orozco-hoy_todo_va_al_reves_(con_toteking)-nyd-14.wav,"['gel', 'org', 'voi']"
+398,05-antonio_orozco-hoy_todo_va_al_reves_(con_toteking)-nyd-19.wav,"['gel', 'org']"
+399,05-antonio_orozco-hoy_todo_va_al_reves_(con_toteking)-nyd-2.wav,['gel']
+400,05-antonio_orozco-hoy_todo_va_al_reves_(con_toteking)-nyd-3.wav,"['gel', 'voi']"
+401,05-antonio_orozco-hoy_todo_va_al_reves_(con_toteking)-nyd-5.wav,"['gel', 'org', 'voi']"
+402,05-antonio_orozco-hoy_todo_va_al_reves_(con_toteking)-nyd-6.wav,"['gel', 'org', 'voi']"
+403,05-antonio_orozco-hoy_todo_va_al_reves_(con_toteking)-nyd-7.wav,"['gel', 'org', 'voi']"
+404,05-antonio_orozco-hoy_todo_va_al_reves_(con_toteking)-nyd-8.wav,"['gel', 'org', 'voi']"
+405,05-antonio_orozco-hoy_todo_va_al_reves_(con_toteking)-nyd-9.wav,"['gel', 'org', 'voi']"
+406,05-Come Away With Me-1.wav,['gel']
+407,05-Come Away With Me-10.wav,"['gel', 'pia', 'voi']"
+408,05-Come Away With Me-12.wav,"['gel', 'pia']"
+409,05-Come Away With Me-2.wav,"['gel', 'pia']"
+410,05-Come Away With Me-3.wav,"['gel', 'voi']"
+411,05-Come Away With Me-4.wav,"['gel', 'pia', 'voi']"
+412,05-Come Away With Me-5.wav,"['gel', 'pia', 'voi']"
+413,05-Come Away With Me-7.wav,"['gel', 'pia']"
+414,05-Come Away With Me-8.wav,"['gel', 'pia']"
+415,05. Lost Life-1.wav,['sax']
+416,05. Lost Life-10.wav,"['pia', 'sax']"
+417,05. Lost Life-11.wav,"['pia', 'sax']"
+418,05. Lost Life-12.wav,"['pia', 'sax']"
+419,05. Lost Life-13.wav,"['pia', 'sax']"
+420,05. Lost Life-14.wav,"['pia', 'sax']"
+421,05. Lost Life-15.wav,"['pia', 'sax']"
+422,05. Lost Life-16.wav,"['pia', 'sax']"
+423,05. Lost Life-17.wav,"['pia', 'sax']"
+424,05. Lost Life-3.wav,"['pia', 'sax']"
+425,05. Lost Life-4.wav,"['pia', 'sax']"
+426,05. Lost Life-5.wav,"['pia', 'sax']"
+427,05. Lost Life-6.wav,"['pia', 'sax']"
+428,05. Lost Life-7.wav,"['pia', 'sax']"
+429,05. Lost Life-8.wav,"['pia', 'sax']"
+430,05. Lost Life-9.wav,"['pia', 'sax']"
+431,06 - Lali Puna - Faking the Books-1.wav,['voi']
+432,06 - Lali Puna - Faking the Books-10.wav,"['gac', 'voi']"
+433,06 - Lali Puna - Faking the Books-11.wav,"['gac', 'voi']"
+434,06 - Lali Puna - Faking the Books-12.wav,"['gac', 'voi']"
+435,06 - Lali Puna - Faking the Books-14.wav,['gac']
+436,06 - Lali Puna - Faking the Books-15.wav,"['gac', 'gel']"
+437,06 - Lali Puna - Faking the Books-16.wav,"['gac', 'gel']"
+438,06 - Lali Puna - Faking the Books-17.wav,"['gac', 'gel']"
+439,06 - Lali Puna - Faking the Books-19.wav,['gac']
+440,06 - Lali Puna - Faking the Books-2.wav,['voi']
+441,06 - Lali Puna - Faking the Books-20.wav,['gac']
+442,06 - Lali Puna - Faking the Books-21.wav,['gac']
+443,06 - Lali Puna - Faking the Books-22.wav,['gac']
+444,06 - Lali Puna - Faking the Books-23.wav,['gac']
+445,06 - Lali Puna - Faking the Books-24.wav,['gac']
+446,06 - Lali Puna - Faking the Books-25.wav,['gac']
+447,06 - Lali Puna - Faking the Books-3.wav,['voi']
+448,06 - Lali Puna - Faking the Books-4.wav,['voi']
+449,06 - Lali Puna - Faking the Books-6.wav,"['gac', 'voi']"
+450,06 - Lali Puna - Faking the Books-7.wav,"['gac', 'voi']"
+451,06 - Lali Puna - Faking the Books-8.wav,"['gac', 'voi']"
+452,06 - Lali Puna - Faking the Books-9.wav,"['gac', 'voi']"
+453,06 - New Noise-1.wav,['gel']
+454,06 - New Noise-10.wav,"['gel', 'voi']"
+455,06 - New Noise-11.wav,"['gel', 'voi']"
+456,06 - New Noise-12.wav,"['gel', 'voi']"
+457,06 - New Noise-14.wav,['gel']
+458,06 - New Noise-15.wav,"['gel', 'voi']"
+459,06 - New Noise-16.wav,"['gel', 'voi']"
+460,06 - New Noise-17.wav,"['gel', 'voi']"
+461,06 - New Noise-18.wav,['gel']
+462,06 - New Noise-19.wav,['gel']
+463,06 - New Noise-2.wav,['gel']
+464,06 - New Noise-20.wav,['gel']
+465,06 - New Noise-21.wav,['gel']
+466,06 - New Noise-22.wav,"['gel', 'voi']"
+467,06 - New Noise-24.wav,"['gel', 'voi']"
+468,06 - New Noise-25.wav,['gel']
+469,06 - New Noise-29.wav,['gel']
+470,06 - New Noise-31.wav,['gel']
+471,06 - New Noise-34.wav,['gel']
+472,06 - New Noise-4.wav,['gel']
+473,06 - New Noise-5.wav,['gel']
+474,06 - New Noise-7.wav,"['gel', 'voi']"
+475,06 - New Noise-8.wav,"['gel', 'voi']"
+476,06 - New Noise-9.wav,"['gel', 'voi']"
+477,06 - the human league - reproduction - empire state human-11.wav,['voi']
+478,06 - the human league - reproduction - empire state human-12.wav,['voi']
+479,06 - the human league - reproduction - empire state human-3.wav,['voi']
+480,06 - the human league - reproduction - empire state human-4.wav,['voi']
+481,06 - the human league - reproduction - empire state human-5.wav,['voi']
+482,06 - the human league - reproduction - empire state human-6.wav,['voi']
+483,06 - the human league - reproduction - empire state human-7.wav,['voi']
+484,06 - the human league - reproduction - empire state human-8.wav,['voi']
+485,06 - The partisan-1.wav,['gac']
+486,06 - The partisan-10.wav,"['gac', 'voi']"
+487,06 - The partisan-11.wav,"['gac', 'voi']"
+488,06 - The partisan-12.wav,['gac']
+489,06 - The partisan-13.wav,"['gac', 'voi']"
+490,06 - The partisan-14.wav,"['gac', 'voi']"
+491,06 - The partisan-15.wav,"['gac', 'voi']"
+492,06 - The partisan-2.wav,"['gac', 'voi']"
+493,06 - The partisan-3.wav,['gac']
+494,06 - The partisan-4.wav,"['gac', 'voi']"
+495,06 - The partisan-5.wav,['gac']
+496,06 - The partisan-6.wav,"['gac', 'voi']"
+497,06 - The partisan-7.wav,['gac']
+498,06 - The partisan-8.wav,"['gac', 'voi']"
+499,06 - The partisan-9.wav,['gac']
+500,06 Night Train-1.wav,"['gel', 'org']"
+501,06 Night Train-10.wav,"['gel', 'org', 'voi']"
+502,06 Night Train-11.wav,"['gel', 'org', 'voi']"
+503,06 Night Train-12.wav,"['gel', 'org', 'voi']"
+504,06 Night Train-13.wav,"['gel', 'org', 'voi']"
+505,06 Night Train-14.wav,"['gel', 'org', 'voi']"
+506,06 Night Train-15.wav,"['gel', 'org', 'voi']"
+507,06 Night Train-17.wav,"['gel', 'org']"
+508,06 Night Train-18.wav,"['gel', 'org']"
+509,06 Night Train-19.wav,"['gel', 'org']"
+510,06 Night Train-2.wav,"['gel', 'org']"
+511,06 Night Train-21.wav,"['gel', 'org', 'voi']"
+512,06 Night Train-22.wav,"['gel', 'org', 'voi']"
+513,06 Night Train-23.wav,"['gel', 'org', 'voi']"
+514,06 Night Train-25.wav,"['gel', 'org']"
+515,06 Night Train-3.wav,"['gel', 'org']"
+516,06 Night Train-4.wav,"['gel', 'org']"
+517,06 Night Train-5.wav,"['gel', 'org']"
+518,06 Night Train-7.wav,"['gel', 'org', 'voi']"
+519,06 Night Train-8.wav,"['gel', 'org', 'voi']"
+520,06 Night Train-9.wav,"['gel', 'org', 'voi']"
+521,06-Confirmation-1.wav,"['pia', 'sax']"
+522,06-Confirmation-10.wav,"['pia', 'sax']"
+523,06-Confirmation-11.wav,"['pia', 'sax']"
+524,06-Confirmation-13.wav,['pia']
+525,06-Confirmation-14.wav,['pia']
+526,06-Confirmation-15.wav,['pia']
+527,06-Confirmation-17.wav,"['pia', 'sax']"
+528,06-Confirmation-18.wav,['pia']
+529,06-Confirmation-19.wav,"['pia', 'sax']"
+530,06-Confirmation-20.wav,['pia']
+531,06-Confirmation-21.wav,['pia']
+532,06-Confirmation-22.wav,"['pia', 'sax']"
+533,06-Confirmation-23.wav,['sax']
+534,06-Confirmation-3.wav,['pia']
+535,06-Confirmation-4.wav,"['pia', 'sax']"
+536,06-Confirmation-5.wav,"['pia', 'sax']"
+537,06-Confirmation-6.wav,"['pia', 'sax']"
+538,06-Confirmation-7.wav,"['pia', 'sax']"
+539,06-Confirmation-8.wav,"['pia', 'sax']"
+540,06-Confirmation-9.wav,"['pia', 'sax']"
+541,06-sigur ros - hljomalind-10.wav,"['gel', 'voi']"
+542,06-sigur ros - hljomalind-12.wav,['gel']
+543,06-sigur ros - hljomalind-15.wav,"['gel', 'voi']"
+544,06-sigur ros - hljomalind-4.wav,['voi']
+545,06-sigur ros - hljomalind-5.wav,['voi']
+546,06-sigur ros - hljomalind-7.wav,"['gel', 'voi']"
+547,06-sigur ros - hljomalind-8.wav,['voi']
+548,07 - Store Bought Bones - 07-1.wav,['org']
+549,07 - Store Bought Bones - 07-10.wav,"['gel', 'org']"
+550,07 - Store Bought Bones - 07-2.wav,"['gel', 'org']"
+551,07 - Store Bought Bones - 07-3.wav,"['gel', 'org', 'voi']"
+552,07 - Store Bought Bones - 07-5.wav,"['gel', 'org', 'voi']"
+553,07 - Store Bought Bones - 07-7.wav,"['org', 'voi']"
+554,07 - Store Bought Bones - 07-8.wav,"['gel', 'org']"
+555,07 palestrina - stabat mater-1.wav,['voi']
+556,07 palestrina - stabat mater-10.wav,['voi']
+557,07 palestrina - stabat mater-11.wav,['voi']
+558,07 palestrina - stabat mater-12.wav,['voi']
+559,07 palestrina - stabat mater-13.wav,['voi']
+560,07 palestrina - stabat mater-14.wav,['voi']
+561,07 palestrina - stabat mater-15.wav,['voi']
+562,07 palestrina - stabat mater-16.wav,['voi']
+563,07 palestrina - stabat mater-17.wav,['voi']
+564,07 palestrina - stabat mater-18.wav,['voi']
+565,07 palestrina - stabat mater-19.wav,['voi']
+566,07 palestrina - stabat mater-2.wav,['voi']
+567,07 palestrina - stabat mater-20.wav,['voi']
+568,07 palestrina - stabat mater-21.wav,['voi']
+569,07 palestrina - stabat mater-22.wav,['voi']
+570,07 palestrina - stabat mater-23.wav,['voi']
+571,07 palestrina - stabat mater-24.wav,['voi']
+572,07 palestrina - stabat mater-25.wav,['voi']
+573,07 palestrina - stabat mater-26.wav,['voi']
+574,07 palestrina - stabat mater-27.wav,['voi']
+575,07 palestrina - stabat mater-3.wav,['voi']
+576,07 palestrina - stabat mater-4.wav,['voi']
+577,07 palestrina - stabat mater-5.wav,['voi']
+578,07 palestrina - stabat mater-6.wav,['voi']
+579,07 palestrina - stabat mater-7.wav,['voi']
+580,07 palestrina - stabat mater-8.wav,['voi']
+581,07 palestrina - stabat mater-9.wav,['voi']
+582,07-My Romance-1.wav,['gac']
+583,07-My Romance-10.wav,['gac']
+584,07-My Romance-11.wav,['gac']
+585,07-My Romance-2.wav,['gac']
+586,07-My Romance-3.wav,['gac']
+587,07-My Romance-4.wav,['gac']
+588,07-My Romance-5.wav,['gac']
+589,07-My Romance-6.wav,['gac']
+590,07-My Romance-7.wav,['gac']
+591,07-My Romance-8.wav,['gac']
+592,07-My Romance-9.wav,['gac']
+593,07. Buddy DeFranco & Tommy Gumina - Scrapple from the Apple-15.wav,['cla']
+594,07. Buddy DeFranco & Tommy Gumina - Scrapple from the Apple-17.wav,['cla']
+595,07. Buddy DeFranco & Tommy Gumina - Scrapple from the Apple-2.wav,['cla']
+596,07. Buddy DeFranco & Tommy Gumina - Scrapple from the Apple-3.wav,['cla']
+597,07. Buddy DeFranco & Tommy Gumina - Scrapple from the Apple-4.wav,['cla']
+598,07. Buddy DeFranco & Tommy Gumina - Scrapple from the Apple-5.wav,['cla']
+599,07. Buddy DeFranco & Tommy Gumina - Scrapple from the Apple-6.wav,['cla']
+600,07. Buddy DeFranco & Tommy Gumina - Scrapple from the Apple-7.wav,['cla']
+601,07. Buddy DeFranco & Tommy Gumina - Scrapple from the Apple-8.wav,['cla']
+602,07. Buddy DeFranco & Tommy Gumina - Scrapple from the Apple-9.wav,['cla']
+603,08 - Mum - Weeping Rock Rock-10.wav,"['tru', 'voi']"
+604,08 - Mum - Weeping Rock Rock-11.wav,"['gac', 'voi']"
+605,08 - Mum - Weeping Rock Rock-13.wav,['flu']
+606,08 - Mum - Weeping Rock Rock-14.wav,"['flu', 'voi']"
+607,08 - Mum - Weeping Rock Rock-15.wav,"['flu', 'pia']"
+608,08 - Mum - Weeping Rock Rock-17.wav,"['gel', 'pia']"
+609,08 - Mum - Weeping Rock Rock-18.wav,"['gel', 'voi']"
+610,08 - Mum - Weeping Rock Rock-20.wav,"['flu', 'gel', 'pia']"
+611,08 - Mum - Weeping Rock Rock-21.wav,"['flu', 'gel', 'voi']"
+612,08 - Mum - Weeping Rock Rock-22.wav,"['gel', 'vio', 'voi']"
+613,08 - Mum - Weeping Rock Rock-23.wav,"['pia', 'vio', 'voi']"
+614,08 - Mum - Weeping Rock Rock-25.wav,['voi']
+615,08 - Mum - Weeping Rock Rock-7.wav,['gac']
+616,08 - Rufus Wainwright - Poses-1.wav,['pia']
+617,08 - Rufus Wainwright - Poses-10.wav,"['cel', 'pia']"
+618,08 - Rufus Wainwright - Poses-11.wav,"['cel', 'pia', 'voi']"
+619,08 - Rufus Wainwright - Poses-13.wav,"['cel', 'pia', 'vio', 'voi']"
+620,08 - Rufus Wainwright - Poses-14.wav,"['cel', 'pia', 'vio', 'voi']"
+621,08 - Rufus Wainwright - Poses-16.wav,"['pia', 'voi']"
+622,08 - Rufus Wainwright - Poses-17.wav,"['cel', 'pia', 'voi']"
+623,08 - Rufus Wainwright - Poses-18.wav,"['pia', 'voi']"
+624,08 - Rufus Wainwright - Poses-19.wav,"['pia', 'voi']"
+625,08 - Rufus Wainwright - Poses-20.wav,"['pia', 'voi']"
+626,08 - Rufus Wainwright - Poses-21.wav,"['pia', 'voi']"
+627,08 - Rufus Wainwright - Poses-23.wav,['pia']
+628,08 - Rufus Wainwright - Poses-3.wav,"['pia', 'voi']"
+629,08 - Rufus Wainwright - Poses-4.wav,"['pia', 'voi']"
+630,08 - Rufus Wainwright - Poses-6.wav,"['pia', 'voi']"
+631,08 - Rufus Wainwright - Poses-8.wav,"['pia', 'voi']"
+632,08 My favorite game-1.wav,['gel']
+633,08 My favorite game-10.wav,"['gel', 'voi']"
+634,08 My favorite game-11.wav,"['gel', 'voi']"
+635,08 My favorite game-13.wav,"['org', 'voi']"
+636,08 My favorite game-14.wav,['voi']
+637,08 My favorite game-15.wav,['voi']
+638,08 My favorite game-17.wav,['voi']
+639,08 My favorite game-18.wav,"['org', 'voi']"
+640,08 My favorite game-2.wav,['gel']
+641,08 My favorite game-20.wav,['org']
+642,08 My favorite game-21.wav,"['org', 'voi']"
+643,08 My favorite game-22.wav,['org']
+644,08 My favorite game-23.wav,"['org', 'voi']"
+645,08 My favorite game-24.wav,['voi']
+646,08 My favorite game-3.wav,"['gel', 'voi']"
+647,08 My favorite game-31.wav,"['org', 'voi']"
+648,08 My favorite game-32.wav,"['org', 'voi']"
+649,08 My favorite game-34.wav,['org']
+650,08 My favorite game-4.wav,"['gel', 'voi']"
+651,08 My favorite game-5.wav,"['gel', 'voi']"
+652,08 My favorite game-6.wav,"['gel', 'voi']"
+653,08 My favorite game-7.wav,"['gel', 'voi']"
+654,08 My favorite game-8.wav,"['gel', 'voi']"
+655,08 My favorite game-9.wav,"['gel', 'voi']"
+656,"08-Concerto in A major, K 219 -2- Adagio-10.wav",['vio']
+657,"08-Concerto in A major, K 219 -2- Adagio-11.wav",['vio']
+658,"08-Concerto in A major, K 219 -2- Adagio-12.wav",['vio']
+659,"08-Concerto in A major, K 219 -2- Adagio-14.wav","['cla', 'vio']"
+660,"08-Concerto in A major, K 219 -2- Adagio-15.wav",['vio']
+661,"08-Concerto in A major, K 219 -2- Adagio-16.wav",['vio']
+662,"08-Concerto in A major, K 219 -2- Adagio-18.wav",['vio']
+663,"08-Concerto in A major, K 219 -2- Adagio-19.wav","['cla', 'vio']"
+664,"08-Concerto in A major, K 219 -2- Adagio-20.wav",['vio']
+665,"08-Concerto in A major, K 219 -2- Adagio-21.wav","['cla', 'vio']"
+666,"08-Concerto in A major, K 219 -2- Adagio-22.wav",['vio']
+667,"08-Concerto in A major, K 219 -2- Adagio-23.wav",['vio']
+668,"08-Concerto in A major, K 219 -2- Adagio-24.wav","['cla', 'vio']"
+669,"08-Concerto in A major, K 219 -2- Adagio-25.wav",['vio']
+670,"08-Concerto in A major, K 219 -2- Adagio-26.wav","['cla', 'vio']"
+671,"08-Concerto in A major, K 219 -2- Adagio-28.wav",['vio']
+672,"08-Concerto in A major, K 219 -2- Adagio-29.wav","['cla', 'vio']"
+673,"08-Concerto in A major, K 219 -2- Adagio-3.wav",['cla']
+674,"08-Concerto in A major, K 219 -2- Adagio-30.wav",['vio']
+675,"08-Concerto in A major, K 219 -2- Adagio-32.wav","['cla', 'vio']"
+676,"08-Concerto in A major, K 219 -2- Adagio-34.wav",['vio']
+677,"08-Concerto in A major, K 219 -2- Adagio-36.wav","['cla', 'vio']"
+678,"08-Concerto in A major, K 219 -2- Adagio-37.wav",['vio']
+679,"08-Concerto in A major, K 219 -2- Adagio-38.wav",['vio']
+680,"08-Concerto in A major, K 219 -2- Adagio-39.wav",['vio']
+681,"08-Concerto in A major, K 219 -2- Adagio-41.wav","['cla', 'vio']"
+682,"08-Concerto in A major, K 219 -2- Adagio-42.wav",['vio']
+683,"08-Concerto in A major, K 219 -2- Adagio-43.wav","['cla', 'vio']"
+684,"08-Concerto in A major, K 219 -2- Adagio-44.wav",['vio']
+685,"08-Concerto in A major, K 219 -2- Adagio-45.wav",['vio']
+686,"08-Concerto in A major, K 219 -2- Adagio-46.wav",['vio']
+687,"08-Concerto in A major, K 219 -2- Adagio-48.wav","['cla', 'vio']"
+688,"08-Concerto in A major, K 219 -2- Adagio-5.wav",['cla']
+689,"08-Concerto in A major, K 219 -2- Adagio-8.wav",['cla']
+690,"08-Concerto in A major, K 219 -2- Adagio-9.wav",['vio']
+691,"10 - Johann Sebastian Bach - English Suite No. 3 in G major, BWV 808 (Andra╠Çs Schiff) (1)-1.wav",['pia']
+692,"10 - Johann Sebastian Bach - English Suite No. 3 in G major, BWV 808 (Andra╠Çs Schiff) (1)-2.wav",['pia']
+693,"10 - Johann Sebastian Bach - English Suite No. 3 in G major, BWV 808 (Andra╠Çs Schiff) (1)-3.wav",['pia']
+694,"10 - Johann Sebastian Bach - English Suite No. 3 in G major, BWV 808 (Andra╠Çs Schiff) (1)-4.wav",['pia']
+695,"10 - Johann Sebastian Bach - English Suite No. 3 in G major, BWV 808 (Andra╠Çs Schiff) (1)-5.wav",['pia']
+696,"10 - Johann Sebastian Bach - English Suite No. 3 in G major, BWV 808 (Andra╠Çs Schiff) (1)-6.wav",['pia']
+697,"10 - Johann Sebastian Bach - English Suite No. 3 in G major, BWV 808 (Andra╠Çs Schiff) (1)-7.wav",['pia']
+698,"10 - Johann Sebastian Bach - English Suite No. 3 in G major, BWV 808 (Andra╠Çs Schiff) (1)-8.wav",['pia']
+699,"10 - Johann Sebastian Bach - English Suite No. 3 in G major, BWV 808 (Andra╠Çs Schiff) (1)-9.wav",['pia']
+700,11 Dead as History-10.wav,"['gac', 'voi']"
+701,11 Dead as History-11.wav,"['gac', 'voi']"
+702,11 Dead as History-12.wav,"['gac', 'voi']"
+703,11 Dead as History-14.wav,['gac']
+704,11 Dead as History-16.wav,"['gac', 'pia']"
+705,11 Dead as History-18.wav,"['gac', 'pia', 'voi']"
+706,11 Dead as History-20.wav,"['flu', 'gac', 'org', 'pia', 'voi']"
+707,11 Dead as History-21.wav,"['flu', 'gac', 'org', 'pia']"
+708,11 Dead as History-22.wav,"['flu', 'gac', 'org']"
+709,11 Dead as History-23.wav,"['gac', 'gel']"
+710,11 Dead as History-24.wav,"['gac', 'gel']"
+711,11 Dead as History-4.wav,"['flu', 'gac', 'pia']"
+712,11 Dead as History-5.wav,"['flu', 'gac', 'org', 'pia']"
+713,11 Dead as History-6.wav,"['flu', 'gac', 'org', 'pia']"
+714,11 Dead as History-8.wav,"['gac', 'voi']"
+715,11 Dead as History-9.wav,"['gac', 'voi']"
+716,12 What'll I Do - Bud Shank And Bob-1.wav,"['flu', 'gel', 'sax']"
+717,12 What'll I Do - Bud Shank And Bob-10.wav,"['flu', 'gel', 'sax']"
+718,12 What'll I Do - Bud Shank And Bob-12.wav,"['flu', 'gel', 'sax']"
+719,12 What'll I Do - Bud Shank And Bob-2.wav,"['flu', 'gel', 'sax']"
+720,12 What'll I Do - Bud Shank And Bob-4.wav,"['flu', 'gel']"
+721,12 What'll I Do - Bud Shank And Bob-6.wav,"['gel', 'sax']"
+722,12 What'll I Do - Bud Shank And Bob-7.wav,['gel']
+723,12 What'll I Do - Bud Shank And Bob-8.wav,"['flu', 'gel']"
+724,12 What'll I Do - Bud Shank And Bob-9.wav,"['flu', 'gel', 'sax']"
+725,13 Chet Atkins & Jerry Reed - Sneakin' Around-1.wav,"['gac', 'gel']"
+726,13 Chet Atkins & Jerry Reed - Sneakin' Around-10.wav,"['gac', 'gel']"
+727,13 Chet Atkins & Jerry Reed - Sneakin' Around-11.wav,"['gac', 'gel']"
+728,13 Chet Atkins & Jerry Reed - Sneakin' Around-12.wav,['gel']
+729,13 Chet Atkins & Jerry Reed - Sneakin' Around-13.wav,"['gac', 'gel']"
+730,13 Chet Atkins & Jerry Reed - Sneakin' Around-14.wav,"['gac', 'gel']"
+731,13 Chet Atkins & Jerry Reed - Sneakin' Around-16.wav,"['gac', 'gel']"
+732,13 Chet Atkins & Jerry Reed - Sneakin' Around-17.wav,"['gac', 'gel']"
+733,13 Chet Atkins & Jerry Reed - Sneakin' Around-2.wav,"['gac', 'gel']"
+734,13 Chet Atkins & Jerry Reed - Sneakin' Around-4.wav,"['gac', 'gel']"
+735,13 Chet Atkins & Jerry Reed - Sneakin' Around-5.wav,"['gac', 'gel']"
+736,13 Chet Atkins & Jerry Reed - Sneakin' Around-6.wav,"['gac', 'gel']"
+737,13 Chet Atkins & Jerry Reed - Sneakin' Around-8.wav,['gel']
+738,13 Chet Atkins & Jerry Reed - Sneakin' Around-9.wav,['gel']
+739,13 Living in the Past-1.wav,"['flu', 'gel']"
+740,13 Living in the Past-10.wav,"['flu', 'gel', 'vio', 'voi']"
+741,13 Living in the Past-11.wav,"['flu', 'gel', 'vio']"
+742,13 Living in the Past-2.wav,"['flu', 'gel']"
+743,13 Living in the Past-3.wav,"['gel', 'vio', 'voi']"
+744,13 Living in the Past-5.wav,"['flu', 'gel']"
+745,13 Living in the Past-6.wav,"['flu', 'gel', 'vio']"
+746,13 Living in the Past-7.wav,"['gel', 'vio', 'voi']"
+747,13 Living in the Past-9.wav,"['flu', 'gel']"
+748,14 - Tomorrow Never Knows-11.wav,['pia']
+749,14 - Tomorrow Never Knows-2.wav,['voi']
+750,14 - Tomorrow Never Knows-3.wav,['voi']
+751,14 - Tomorrow Never Knows-6.wav,['gel']
+752,14 - Tomorrow Never Knows-7.wav,['voi']
+753,14 - Tomorrow Never Knows-8.wav,['voi']
+754,14 - Tomorrow Never Knows-9.wav,['voi']
+755,"14-god is an astronaut - all is violent, all is bright-10.wav","['gel', 'org']"
+756,"14-god is an astronaut - all is violent, all is bright-12.wav","['gel', 'org']"
+757,"14-god is an astronaut - all is violent, all is bright-14.wav",['org']
+758,"14-god is an astronaut - all is violent, all is bright-16.wav",['org']
+759,"14-god is an astronaut - all is violent, all is bright-3.wav",['org']
+760,"14-god is an astronaut - all is violent, all is bright-4.wav","['gel', 'org']"
+761,"14-god is an astronaut - all is violent, all is bright-6.wav","['gel', 'org']"
+762,"14-god is an astronaut - all is violent, all is bright-8.wav","['gel', 'org']"
+763,14.  Boots Randolph - Yakety Sax-1.wav,"['gac', 'sax']"
+764,14.  Boots Randolph - Yakety Sax-3.wav,"['gac', 'sax']"
+765,14.  Boots Randolph - Yakety Sax-5.wav,"['gac', 'sax']"
