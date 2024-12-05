@@ -1,0 +1,23 @@
+{%extends "base_template.html"%}
+
+{%block content%}
+<h1>Upload File and Get Song Recommendations</h1>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul>
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+    <form action="/recommend_results" method="post" enctype="multipart/form-data">
+        <label for="file">Upload File:</label>
+        <input type="file" name="file" id="file" required><br><br>
+        <label for="num_recommendations">Number of Recommendations:</label>
+        <input type="number" name="num_recommendations" id="num_recommendations" min="1" required><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+
+{%endblock%}
