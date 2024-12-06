@@ -14,8 +14,8 @@ from sklearn.metrics import silhouette_score
 import pickle
 import joblib
 
-def read_get_df():
-    df = pd.read_csv("features_data.csv")
+def get_original_df():
+    df = pd.read_csv("clustered_data.csv")
     df = df.drop(columns = ['Unnamed: 0'])
     return df
 
@@ -97,11 +97,9 @@ def scale_df(df):
     df_scaled = scaler.fit_transform(df)
     return df_scaled
 
-def get_labels(df):
+def get_processed_df(df:pd.DataFrame)->pd.DataFrame:
     #df_padded = pad_df(df)
     #df_listed = convert_list_to_features(df_padded)
     df = df.drop(columns = ["mfcc_mean", "mfcc_std"])
     df_scaled = scale_df(df)
-    model = joblib.load("kmeans.pkl")
-    result = model.predict(df_scaled)
-    return result
+    return df_scaled

@@ -1,5 +1,6 @@
 {%extends "base_template.html"%}
 {%block content%}
+<div style="padding-left: 2%;">
 <h1>Recommended Songs</h1>
     <ul>
         {% for song in recommendations %}
@@ -7,4 +8,5 @@
         {% endfor %}
     </ul>
     <a href="/">Go Back</a>
+</div>
 {%endblock%}

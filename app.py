@@ -9,7 +9,11 @@ from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired, ValidationError
 import supabase
 from db_checker_module import generate_rows
+from recommendation_module import feature_extractor_module
+from recommendation_module import preprocessing_df
 import os
+import joblib
+import pandas as pd
 
 PROJECT_URL = "https://qbmoyulmzltkzvtqslnl.supabase.co"
 API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFibW95dWxtemx0a3p2dHFzbG5sIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzI0MzI3MDMsImV4cCI6MjA0ODAwODcwM30.Kg0APL06JN3Wa4Zd7J_uDM3nOoEclpcKYOA71QYN2n8"
@@ -23,6 +27,7 @@ app.config['SECRET_KEY'] = 'secretkey'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
+df_songs = pd.read_csv("recommendation_module/features_data.csv")
 
 class Search_Form(FlaskForm):
     song_name = StringField('search song name')
@@ -32,7 +37,21 @@ def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 def recommend_songs(filepath, num_recommendations):
-    pass
+    get_features = feature_extractor_module.extract_audio_features(file_path=filepath)
+    df = pd.DataFrame([get_features])
+    df = df.drop(columns=["mfcc_mean", "mfcc_std"])
+    model = joblib.load("recommendation_module/kmeans_model_final.pkl")
+    result = model.predict(df)[0]
+    df_org = pd.read_csv("recommendation_module/clustered_data.csv")
+    recommendations = list(df_org[df_org["cluster_kmeans"] == result]["Unnamed: 0"][:num_recommendations])
+    songs = []
+    for rec in recommendations:
+        songs.append(df_songs["track_name"].iloc[rec])
+    files_list = os.listdir("uploads")
+    for file in files_list:
+        os.remove("uploads/"+file)
+    os.rmdir("uploads")
+    return songs
 
 @app.route('/')
 def home():
@@ -76,7 +95,7 @@ def recommend_results():
         # Generate recommendations
         recommendations = recommend_songs(filepath, num_recommendations)
 
-        return render_template('result.html', recommendations=recommendations)
+        return render_template('results.html', recommendations=recommendations)
     else:
         flash('Invalid file type. Only .wav and .mp3 files are allowed.')
         return redirect(request.url)

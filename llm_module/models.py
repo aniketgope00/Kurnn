@@ -5,6 +5,8 @@ import torch
 from samplings import top_p_sampling, temperature_sampling
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from transformers import AutoProcessor, MusicgenMelodyForConditionalGeneration
+import pretty_midi
+import librosa
 
 def transcriber(filepath:str)->str:
     model = whisper.load_model("tiny")
@@ -82,8 +84,16 @@ def musicgen(prompt:str):
     model = MusicgenMelodyForConditionalGeneration.from_pretrained("facebook/musicgen-small")
 
     inputs = processor(
-        text=["80s blues track with groovy saxophone"],
+        text=[f"{prompt}"],
         padding=True,
         return_tensors="pt",
     )
     audio_values = model.generate(**inputs, do_sample=True, guidance_scale=3, max_new_tokens=256)
+    wave_form = audio_values[0].numpy()
+    sampling_rate = model.config.audio_encoder.sampling_rate
+    print(f"Sampling rate: {sampling_rate} Hz")
+    wave_form = librosa.resample(wave_form, orig_sr=sampling_rate, target_sr=44100)
+    midi_data = pretty_midi.PrettyMIDI()
+    instrument_program = pretty_midi.instrument_name_to_program('Acoustic Grand Piano')
+    instrument = pretty_midi.Instrument(program=instrument_program)
+    
