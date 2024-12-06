@@ -5,7 +5,7 @@ import numpy as np
 
 import supabase.client
 import data_loader_spotify.spotify_download_script as download_module
-import feature_extractor_module
+import Kurnn.recommendation_module.feature_extractor_module as feature_extractor_module
 import supabase
 import os
 

@@ -1,5 +1,30 @@
 {%extends "base_template.html"%}
 {%block content%}
 
+<form action = "/generate_result" method = "post" style="padding-left: 2%;">
+    <label for="file">Upload File:</label>
+    <input type = "file" name = "file"><br><br>
+
+    Prompt:<br>
+    <br>
+    <label for="prompt">Enter Prompt Below</label>
+    <br>
+    <input type="text" id="user_prompt" name="prompt" value="user_prompt">
+
+    <br>
+    <br>
+    Select Model For Generation:<br>
+    <input type="radio" id="model1" name="model_choice" value="model1">
+    <label for="model1">Model 1</label><br>
+    <input type="radio" id="model2" name="model_choice" value="model2">
+    <label for="model2">Model 2</label><br>
+    
+
+    <br>
+    <input type="checkbox" name="checkbox_field" value="checked">
+    <label for="checkbox_field">Generate Extended Lyrics wit Gemini</label>
+        
+    <input type="submit" value="Submit">
+</form>
 
 {%endblock%}

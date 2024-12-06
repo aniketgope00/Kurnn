@@ -2,7 +2,7 @@ import os
 import supabase
 import pandas as pd
 import batch_processor
-import feature_extractor_module
+import Kurnn.recommendation_module.feature_extractor_module as feature_extractor_module
 
 PROJECT_URL = "https://qbmoyulmzltkzvtqslnl.supabase.co"
 API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFibW95dWxtemx0a3p2dHFzbG5sIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzI0MzI3MDMsImV4cCI6MjA0ODAwODcwM30.Kg0APL06JN3Wa4Zd7J_uDM3nOoEclpcKYOA71QYN2n8"
