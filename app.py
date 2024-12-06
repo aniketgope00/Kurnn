@@ -3,6 +3,7 @@ from flask import render_template
 from flask import request
 from flask import redirect
 from flask import flash
+from flask import url_for
 from db_checker_module import generate_rows
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
@@ -11,6 +12,9 @@ import supabase
 from db_checker_module import generate_rows
 from recommendation_module import feature_extractor_module
 from recommendation_module import preprocessing_df
+import numpy as np
+import soundfile as sf
+from llm_module import models
 import os
 import joblib
 import pandas as pd
@@ -26,6 +30,9 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secretkey'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+OUTPUT_DIR = "output"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
 
 df_songs = pd.read_csv("recommendation_module/features_data.csv")
 
@@ -60,6 +67,43 @@ def home():
 @app.route("/generate")
 def generate():
     return render_template("generate.html")
+
+@app.route("/generate_result", methods = ["GET","POST"])
+def generate_results():
+    if "file" not in request.files and "prompt" not in request.form:
+        flash("File and prompt are required.")
+        return redirect(request.url)
+
+    # File handling (optional)
+    file = request.files["file"]
+    lyrics, generated_lyrics = "", ""
+    if file.filename:
+        file.save(os.path.join(OUTPUT_DIR, file.filename))
+        lyrics = models.transcriber(OUTPUT_DIR+"/"+file.filename)
+        generated_lyrics = models.get_new_lyrics(lyrics)
+
+    
+    # Get form data
+    prompt = request.form["prompt"]
+    model_choice = request.form.get("model_choice")
+    checkbox_field = request.form.get("checkbox_field")
+
+    # Model processing
+    if model_choice == "model1":
+        notes_generated = models.text_to_music(prompt)
+    elif model_choice == "model2":
+        audio_data_list = models.musicgen(prompt)
+        audio_data = audio_data_list[0][0].numpy().astype(np.float32)
+        audio_data = audio_data.squeeze()  # Remove unnecessary dimensions if present
+        sampling_rate = audio_data_list[1]
+        # Save as WAV file
+        sf.write(OUTPUT_DIR+'/'+'generated_audio.wav', audio_data, sampling_rate)
+    else:
+        flash("Please select a model for generation.")
+        return redirect(request.url)
+
+    # Render results
+    return render_template("result.html", text_output=notes_generated, audio_output=OUTPUT_DIR+'/'+'generated_audio.wav', lyrics = lyrics, song_data = generated_lyrics[:2], new_lyrics = generated_lyrics[-1])
 
 
 @app.route("/recommend_home")

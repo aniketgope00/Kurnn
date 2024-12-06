@@ -1,7 +1,7 @@
 {%extends "base_template.html"%}
 {%block content%}
 
-<form action = "/generate_result" method = "post" style="padding-left: 2%;">
+<form action = "/generate_result" method = "post"  enctype="multipart/form-data" style="padding-left: 2%;">
     <label for="file">Upload File:</label>
     <input type = "file" name = "file"><br><br>
 
@@ -15,9 +15,9 @@
     <br>
     Select Model For Generation:<br>
     <input type="radio" id="model1" name="model_choice" value="model1">
-    <label for="model1">Model 1</label><br>
+    <label for="model1">Text-to-Music</label><br>
     <input type="radio" id="model2" name="model_choice" value="model2">
-    <label for="model2">Model 2</label><br>
+    <label for="model2">MusicGen</label><br>
     
 
     <br>
