@@ -77,3 +77,7 @@ def musicgen(prompt:str):
     audio_data = audio_data.squeeze()
     sf.write('generated_audio.wav', audio_data, sampling_rate)'''
     return [audio_values, sampling_rate]
+
+if __name__ == "__main__":
+    lyrics = transcriber("../uploads/"+os.listdir('../uploads')[0])
+    print(lyrics)
