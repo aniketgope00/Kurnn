@@ -85,9 +85,9 @@ def generate_results():
     print(filepath)
 
     lyrics = models.transcriber('uploads/'+os.listdir('uploads')[0])
-    text_output = models.text_to_music(prompt)
     song_data = models.get_new_lyrics(lyrics)
-
+    text_output = models.text_to_music(song_data[0], song_data[1])
+    
 
 
     # Render results

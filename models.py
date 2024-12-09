@@ -26,12 +26,14 @@ def get_new_lyrics(lyrics:str)->str:
     new_lyrics = model.generate_content(f"Given lyrics {lyrics}, write a new verse for the song")
     return [song_type, song_genre, new_lyrics]
 
-def text_to_music(prompt:str)->list:
+def text_to_music(song_type:str, song_genre:str)->list:
     tokenizer = AutoTokenizer.from_pretrained('sander-wood/text-to-music')
     model = AutoModelForSeq2SeqLM.from_pretrained('sander-wood/text-to-music')
     max_length = 1024
     top_p = 0.9
     temperature = 1.0
+    tune = ""
+    prompt = f"This is a traditional {song_type} {song_genre} music"
     
     input_ids = tokenizer(prompt, 
                       return_tensors='pt', 

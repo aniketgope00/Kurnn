@@ -1,19 +1,14 @@
 {%extends "base_template.html"%}
 {%block content%}
 
-{if len(lyrics)!=0}
     Lyrics: {{lyrics}}
     <br>
     Song Type: {{song_data[0]}}
     <br>
     Song Genre: {{song_data[1]}}
-    {if len(new_lyrics)!=0}
     Generated Lyrics: {{new_lyrics}}
-    {endif}
-{endif}
-
-<h2>Generated Text</h2>
-<p>{{ text_output }}</p>
+    Generated Text
+    <p>{{ text_output }}</p>
 
 <!--<h2>Generated Audio</h2>
 <audio controls>
