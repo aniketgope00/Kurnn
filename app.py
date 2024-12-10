@@ -44,6 +44,7 @@ def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 def recommend_songs(filepath, num_recommendations):
+    os.makedirs(UPLOAD_FOLDER, exist_ok=True)
     get_features = feature_extractor_module.extract_audio_features(file_path=filepath)
     df = pd.DataFrame([get_features])
     df = df.drop(columns=["mfcc_mean", "mfcc_std"])
@@ -57,7 +58,6 @@ def recommend_songs(filepath, num_recommendations):
     files_list = os.listdir("uploads")
     for file in files_list:
         os.remove("uploads/"+file)
-    os.rmdir("uploads")
     return songs
 
 @app.route('/')
@@ -70,8 +70,9 @@ def generate():
 
 @app.route("/generate_result", methods = ["GET","POST"])
 def generate_results():
+    os.makedirs(UPLOAD_FOLDER, exist_ok=True)
     # Get form data
-    prompt = request.form["prompt"]
+    #prompt = request.form["prompt"]
     file = request.files['file']
     if file.filename == '':
         flash('No file selected')
@@ -88,7 +89,9 @@ def generate_results():
     song_data = models.get_new_lyrics(lyrics)
     text_output = models.text_to_music(song_data[0], song_data[1])
     
-
+    files_list = os.listdir("uploads")
+    for file in files_list:
+        os.remove("uploads/"+file)
 
     # Render results
     return render_template("generation_results.html", text_output=text_output, lyrics = lyrics, song_data = song_data[:2], new_lyrics = song_data[-1])

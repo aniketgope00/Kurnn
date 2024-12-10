@@ -23,7 +23,7 @@ def get_new_lyrics(lyrics:str)->str:
     model = genai.GenerativeModel("gemini-1.5-flash")
     song_type = model.generate_content(f"In one word, tell me what type of song has the lyrics: {lyrics}").text
     song_genre = model.generate_content(f"In one word, tell me what genre of song has the lyrics: {lyrics}").text
-    new_lyrics = model.generate_content(f"Given lyrics {lyrics}, write a new verse for the song")
+    new_lyrics = model.generate_content(f"Given lyrics {lyrics}, write a new verse for the song").text
     return [song_type, song_genre, new_lyrics]
 
 def text_to_music(song_type:str, song_genre:str)->list:

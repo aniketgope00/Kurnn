@@ -1,13 +1,22 @@
 {%extends "base_template.html"%}
 {%block content%}
-
-    Lyrics: {{lyrics}}
+<div style="padding-left: 2%;">
+    <h4>Lyrics:</h4>
+    <br> 
+    {{lyrics}}
     <br>
-    Song Type: {{song_data[0]}}
+    <h4>Song Type:</h4>
+    <br> 
+    <b>{{song_data[0]}}</b>
     <br>
-    Song Genre: {{song_data[1]}}
-    Generated Lyrics: {{new_lyrics}}
-    Generated Text
+    <h4>Song Genre:</h4>
+    <br> 
+    <b>{{song_data[1]}}</b>
+    <h4>Generated Lyrics: </h4>
+    <br>
+    {{new_lyrics}}
+    <h4>Generated Notes</h4>
+    <br>
     <p>{{ text_output }}</p>
 
 <!--<h2>Generated Audio</h2>
@@ -17,6 +26,6 @@
 </audio>-->
 
 <a href="/">Go Back</a>
-
+</div>
 
 {%endblock%}

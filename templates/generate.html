@@ -1,15 +1,17 @@
 {%extends "base_template.html"%}
 {%block content%}
 
+<div style="padding-left: 2%;">
+<h3>Generating Songs with AI</h3>
+<h4>
+Models used: OpenAI-Whisper, Google Gemini, HuggingFace Text2Music
+</h4>
+
 <form action = "/generate_result" method = "post"  enctype="multipart/form-data" style="padding-left: 2%;">
-    <label for="file">Upload File:</label>
+    <label for="file"><h3>Upload File:</h3></label>
     <input type = "file" name = "file"><br><br>
     <br>
-    <label for="prompt">Enter Prompt Below</label>
-    <br>
-    <input type="text" id="user_prompt" name="prompt" value="user_prompt">
-        
     <input type="submit" value="Submit">
 </form>
-
+</div>
 {%endblock%}
