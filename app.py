@@ -4,6 +4,8 @@ from flask import request
 from flask import redirect
 from flask import flash
 from flask import url_for
+import psycopg2
+from dotenv import load_dotenv
 from db_checker_module import generate_rows
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
@@ -21,6 +23,16 @@ import pandas as pd
 
 PROJECT_URL = "https://qbmoyulmzltkzvtqslnl.supabase.co"
 API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFibW95dWxtemx0a3p2dHFzbG5sIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzI0MzI3MDMsImV4cCI6MjA0ODAwODcwM30.Kg0APL06JN3Wa4Zd7J_uDM3nOoEclpcKYOA71QYN2n8"
+
+#Fetch the data from the database
+load_dotenv()
+
+USER = os.getenv('USER')
+PASSWORD = os.getenv('PASSWORD')
+HOST = os.getenv('HOST')
+PORT = os.getenv('PORT')
+DBNAME = os.getenv('DBNAME')
+
 UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'wav', 'mp3'}
 
@@ -36,9 +48,15 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 df_songs = pd.read_csv("recommendation_module/features_data.csv")
 
+class LoginForm(FlaskForm):
+    email = StringField('email', validators=[DataRequired()])
+    password = StringField('password', validators=[DataRequired()])
+    submit = SubmitField('login')
+
 class Search_Form(FlaskForm):
     song_name = StringField('search song name')
     submit = SubmitField('search')
+
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
@@ -61,8 +79,63 @@ def recommend_songs(filepath, num_recommendations):
     return songs
 
 @app.route('/')
+@app.route('/home')
 def home():
     return render_template("index.html")
+
+@app.route('/login_result', methods=['GET', 'POST'])
+def validate_login():
+    email = request.form.get('email')
+    password = request.form.get('password')
+    
+    query = f"SELECT * FROM users WHERE email = '{email}' AND password = '{password}'"
+    try:
+        connection = psycopg2.connect(
+                     user=USER,
+                     password=PASSWORD,
+                     host=HOST,
+                     port=PORT,
+                     dbname=DBNAME
+                    )
+        print("Connection successful!")
+    
+        # Create a cursor to execute SQL queries
+        cursor = connection.cursor()
+        
+        # Example query
+        cursor.execute(f"SELECT * from auth.user_auth WHERE email = '{email}' AND password = '{password}'")
+        result = cursor.fetchone()
+        print("Current Time:", result)
+
+        # Close the cursor and connection
+        cursor.close()
+        connection.close()
+        print("Connection closed.")
+
+    except Exception as e:
+        return "<h1> Error in Connection </h1>"
+    
+    return render_template("login_results.html", response="Successful Login")
+
+@app.route('/checkdb')
+def checkdb():
+    try:
+        connection = psycopg2.connect(
+        user=USER,
+        password=PASSWORD,
+        host=HOST,
+        port=PORT,
+        dbname=DBNAME
+    )
+        return "connection successful"
+    except Exception as error:
+        return f"Error connecting to the database: {error}"
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        return validate_login()
+    return render_template("login.html")
 
 @app.route("/generate")
 def generate():
