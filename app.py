@@ -4,16 +4,20 @@ from flask import request
 from flask import redirect
 from flask import flash
 from flask import url_for
+
 import psycopg2
 from dotenv import load_dotenv
+
 from db_checker_module import generate_rows
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired, ValidationError
+
 import supabase
 from db_checker_module import generate_rows
 from recommendation_module import feature_extractor_module
 from recommendation_module import preprocessing_df
+
 import numpy as np
 import soundfile as sf
 import models
@@ -21,17 +25,23 @@ import os
 import joblib
 import pandas as pd
 
-PROJECT_URL = "https://qbmoyulmzltkzvtqslnl.supabase.co"
-API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFibW95dWxtemx0a3p2dHFzbG5sIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzI0MzI3MDMsImV4cCI6MjA0ODAwODcwM30.Kg0APL06JN3Wa4Zd7J_uDM3nOoEclpcKYOA71QYN2n8"
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import auth
 
 #Fetch the data from the database
 load_dotenv()
 
+PROJECT_URL = os.getenv('PROJECT_URL')
+API_KEY = os.getenv('API_KEY')
 USER = os.getenv('USER')
 PASSWORD = os.getenv('PASSWORD')
 HOST = os.getenv('HOST')
 PORT = os.getenv('PORT')
 DBNAME = os.getenv('DBNAME')
+
+#cred = credentials.Certificate('path/to/your/credentials.json')
+#firebase_admin.initialize_app(cred)
 
 UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'wav', 'mp3'}
@@ -85,38 +95,18 @@ def home():
 
 @app.route('/login_result', methods=['GET', 'POST'])
 def validate_login():
-    email = request.form.get('email')
-    password = request.form.get('password')
-    
-    query = f"SELECT * FROM users WHERE email = '{email}' AND password = '{password}'"
-    try:
-        connection = psycopg2.connect(
-                     user=USER,
-                     password=PASSWORD,
-                     host=HOST,
-                     port=PORT,
-                     dbname=DBNAME
-                    )
-        print("Connection successful!")
-    
-        # Create a cursor to execute SQL queries
-        cursor = connection.cursor()
-        
-        # Example query
-        cursor.execute(f"SELECT * from auth.user_auth WHERE email = '{email}' AND password = '{password}'")
-        result = cursor.fetchone()
-        print("Current Time:", result)
-
-        # Close the cursor and connection
-        cursor.close()
-        connection.close()
-        print("Connection closed.")
-
-    except Exception as e:
-        return "<h1> Error in Connection </h1>"
-    
-    return render_template("login_results.html", response="Successful Login")
-
+    form = LoginForm()
+    if form.validate_on_submit():
+        email = form.email.data
+        password = form.password.data
+        '''try:
+            user = auth.sign_in_with_email_and_password(email, password)
+            session['user_uid'] = user.uid
+            return redirect(url_for('dashboard'))  # Redirect to a protected page
+        except Exception as e:
+            # Handle login errors (e.g., invalid credentials)
+            return 
+'''
 @app.route('/checkdb')
 def checkdb():
     try:
@@ -219,6 +209,11 @@ def check():
         return render_template('search_results.html', search_results=search_result_songs)  # Updated variable name
 
     return render_template("check.html", rows=header_rows, form=search_input)
+
+
+@app.route("/explore")
+def explore():
+    return render_template("explore.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
