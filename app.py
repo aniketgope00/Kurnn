@@ -215,5 +215,11 @@ def check():
 def explore():
     return render_template("explore.html")
 
+@app.route('/discover')
+def contribute():
+    header_rows = generate_rows.get_header_rows()
+    print(header_rows)
+    return render_template("discover.html", header_rows = header_rows)
+
 if __name__ == "__main__":
     app.run(debug=True)
