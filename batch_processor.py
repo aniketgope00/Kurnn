@@ -2,6 +2,7 @@ from googleapiclient.discovery import build
 from google.oauth2 import service_account
 import sqlite3
 import numpy as np
+import load_dotenv
 
 import supabase.client
 import data_loader_spotify.spotify_download_script as download_module
@@ -9,13 +10,12 @@ import Kurnn.recommendation_module.feature_extractor_module as feature_extractor
 import supabase
 import os
 
+load_dotenv.load_dotenv()
+
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
-SCOPES = ["https://www.googleapis.com/auth/drive"]
-SERVICE_ACCOUNT_FILE = "recommendationsys-0-e31dca12bea6.json"
-PARENT_FOLDER_ID = "1Z7_77J9oJvZ8ZoBl2EU3Yx3AhZ6dmcgK"
-PROJECT_URL = "https://qbmoyulmzltkzvtqslnl.supabase.co"
-API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFibW95dWxtemx0a3p2dHFzbG5sIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzI0MzI3MDMsImV4cCI6MjA0ODAwODcwM30.Kg0APL06JN3Wa4Zd7J_uDM3nOoEclpcKYOA71QYN2n8"
+PROJECT_URL = os.getenv("PROJECT_URL")
+API_KEY = os.getenv("API_KEY")
 
 supabase_client = supabase.create_client(PROJECT_URL, API_KEY)
 '''
